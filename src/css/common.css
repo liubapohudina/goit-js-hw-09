@@ -22,11 +22,54 @@ img {
   justify-content: center;
   align-items: center;
 }
-button {
+
+.btn {
   cursor: pointer;
   padding: 20px 50px;
   font-size: 20px;
   color: #212121;
   background-color: rgb(197, 197, 230);
-  border-color: rgb(149, 149, 214);;
+  border-color: rgb(149, 149, 214);
+}
+.btn:hover,
+.btn:focus {
+  background-color: rgb(197, 197, 230, 0.4);
+  border-color: rgb(197, 197, 230, 0.4);
+}
+.box-date {
+  text-align: center;
+}
+.timer {
+  margin: 20px auto;
+  font-size: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 10px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  color: rgb(114, 57, 167);
+}
+input {
+  border-radius: 30px;
+  background-color: rgb(198, 152, 242);
+  border: none;
+  height: 30px;
+  margin-right: 10px;
+}
+.btn-date {
+  border-radius: 30px;
+    background-color: rgb(198, 152, 242);
+    border: none;
+    height: 30px;
+    width: 60px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 300ms linear;
+}
+.btn-date:focus,
+.btn-date:hover {
+  background-color: rgb(147, 56, 232);
 }
