@@ -26,7 +26,7 @@ function handleSubmit(event) {
   let step = delayStep.valueAsNumber; 
   let targetAmount = amount.valueAsNumber;
 
-  for (let position = 1; position <= targetAmount; position += 1) { // Fix the loop syntax
+  for (let position = 1; position <= targetAmount; position += 1) { 
     createPromise(position, delay)
       .then(({ position, delay }) => {
         Notiflix.Notify.success(`✅ Fulfilled promise ${position} in ${delay}ms`);
