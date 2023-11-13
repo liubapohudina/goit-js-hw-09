@@ -53,11 +53,12 @@ img {
   color: rgb(114, 57, 167);
 }
 input {
-  border-radius: 30px;
+  border-radius: 150px;
   background-color: rgb(198, 152, 242);
   border: none;
   height: 30px;
   margin-right: 10px;
+  width: 120px;
 }
 .btn-date {
   border-radius: 30px;
