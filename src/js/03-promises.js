@@ -37,4 +37,5 @@ function handleSubmit(event) {
 
     delay += step;
   }
+  document.querySelector(".form").reset()
 }

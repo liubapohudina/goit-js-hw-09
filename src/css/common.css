@@ -71,3 +71,12 @@ input {
 .btn-date:hover {
   background-color: rgb(147, 56, 232);
 }
+.btn-promise {
+  border-radius: 150px;
+    background-color: rgb(171, 114, 224);
+    border: none;
+    height: 30px;
+    margin-right: 10px;
+    width: 120px;
+    cursor: pointer;
+}
