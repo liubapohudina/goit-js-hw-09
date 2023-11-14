@@ -19,5 +19,5 @@ btnStart.addEventListener('click', () => {
 btnStop.addEventListener("click", () => {
   clearInterval(timerId);
   btnStart.disabled = false;
-  btnStop.disabled = truestar;
+  btnStop.disabled = true;
 });
